@@ -1,0 +1,163 @@
+body{
+  font-family: 'Assistant', sans-serif;
+  position: relative;
+}
+h1{
+  z-index: 3;
+  position: fixed;
+  font-family: 'Poiret One', cursive;
+  text-align:right;
+  font-size: 50px;
+  right: 50px;
+}
+.ti{
+  z-index: 2;
+  position: fixed;
+  margin-top: -10px;
+  height: 150px;
+  width: 3000px;
+  background-color: white;
+}
+.nav{
+  z-index: 3;
+  position: fixed;
+  top: 80px;
+  left: 110px;
+  font-size: 20px;
+}
+.nav2{
+  z-index: 3;
+  position: fixed;
+  top: 80px;
+  font-size: 20px;
+  left: 200px;
+}
+.type{
+  position: fixed;
+  top: 130px;
+  left: 100px;
+  font-size: 16px;
+}
+.type1{
+  padding-top: 8px;
+  color: grey;
+}
+.type1:hover{
+  color:black;
+}
+.year{
+  position: fixed;
+  top: 160px;
+  font-size: 16px;
+  left: 40px;
+  color: grey;
+}
+.ye{
+  padding-bottom: 5px;
+}
+.ye:hover{
+  color:black;
+  font-size: 22px;
+}
+.hide{
+  display: none;
+}
+.linkwork{
+  style:none;
+}
+/* grid */
+.bo{
+  position: relative;
+  top: 150px;
+  left: 100px;
+  right: 130px;
+}
+.container{
+  position: absolute;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.brainr1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.chair1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.bake{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.food{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.re{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.dental{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.puz{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.text{
+  z-index: 1;
+  align-self: center;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+.opa{
+  opacity: 0.5
+}
+.textb{
+  background-color: rgba(34,30,30,0.85)
+}
+/* .modown{
+  -webkit-animation-name: "movedown";
+  -webkit-animation-duration: 0.5s;
+}
+
+@-webkit-keyframes movedown {
+  0%{
+  top: 160px;
+  }
+  100%{
+  top: 300px;
+  }
+}
+
+.moup{
+  -webkit-animation-name: "moveup";
+  -webkit-animation-duration: 0.5s;
+}
+
+@-webkit-keyframes moveup {
+  0%{
+  top: 300px;
+  }
+  100%{
+  top: 160px;
+  }
+} */
