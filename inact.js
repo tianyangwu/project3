@@ -53,3 +53,18 @@ $(".puz"). hover(function(){
   $(".text7").toggleClass("hide");
   $(".br7").toggleClass("opa");
 })
+
+$(".ext"). hover(function(){
+  $(".text8").toggleClass("hide");
+  $(".br8").toggleClass("opa");
+})
+
+$(".cube"). hover(function(){
+  $(".text9").toggleClass("hide");
+  $(".br9").toggleClass("opa");
+})
+
+$(".apt"). hover(function(){
+  $(".text10").toggleClass("hide");
+  $(".br10").toggleClass("opa");
+})
